@@ -25,6 +25,6 @@ myFriends.forEach((myFriend) => {
     }
   });
 });
-
+// mutualFriends.length = 0;
 console.log(mutualFriends);
 // console.log(newFriends);
