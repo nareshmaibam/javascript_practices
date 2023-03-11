@@ -14,12 +14,15 @@ if (Object.keys(veg).length) {
   // console.log("veg", veg);
   veg.forEach((item) => {
     if (item.item === "Tomato") {
-      console.log(item);
+      myDiet.push({ myFavouriteVeg: item.item });
       return;
     }
     if (item.item === "Orange") {
-      console.log(item);
+      myDiet.push({ myFavouriteFruit: item.item });
       return;
     }
   });
+}
+if (Object.keys(myDiet)) {
+  console.log(myDiet);
 }
